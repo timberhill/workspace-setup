@@ -3,4 +3,3 @@
   ansible.builtin.command: pkg install -y neovim
   changed_when: "'Setting up neovim' in install.stdout"
   register: install
-

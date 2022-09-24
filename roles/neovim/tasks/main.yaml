@@ -4,4 +4,3 @@
   with_first_found:
     - "install/{{ ansible_distribution }}.yaml"
     - "install/default.yaml"
-
